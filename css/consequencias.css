@@ -1,0 +1,38 @@
+.consequencias {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: START;
+  gap: 32px;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.consequencias h2 {
+  color: var(--details);
+  margin-top: 20px;
+  margin-bottom: 16px;
+  padding-right: 12px;
+}
+
+.consequencias p {
+  max-width: 38ch;
+  line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+  .consequencias h2 {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 700px) {
+  .consequencias {
+    grid-template-columns: 1fr;
+    padding-top: 120px;
+    padding-bottom: 20px;
+  }
+
+  .consequencias p {
+    max-width: 100%;
+  }
+}

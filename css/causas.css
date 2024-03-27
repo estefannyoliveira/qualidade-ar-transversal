@@ -1,0 +1,42 @@
+.causas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 40px;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.causas h2,
+.causas > p {
+  grid-column: 1 / -1;
+}
+
+.causas > p {
+  margin-bottom: 20px;
+}
+
+.causas-card {
+  background: var(--secondary);
+  padding: 40px 60px;
+  border-radius: 8px;
+}
+
+.causas-card h3 {
+  color: var(--details);
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 900px) {
+  .causas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+  }
+
+  .causas-card:first-of-type {
+    margin-bottom: 20px;
+  }
+}

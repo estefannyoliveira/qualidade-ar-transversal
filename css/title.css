@@ -1,0 +1,39 @@
+.title {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    font-family: var(--secondary-font);
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.title-text{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.title span {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 4px;
+    text-align: left;
+
+}
+
+
+@media(max-width:800px) {
+    .title span {
+        font-size: 16px;
+    }
+    .title h1 {
+        font-size: 36px;
+    }
+
+    .title {
+        grid-template-columns: 1fr;
+        padding-top: 120px;
+        padding-bottom: 20px;
+    }
+    
+}

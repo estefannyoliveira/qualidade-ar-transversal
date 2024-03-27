@@ -1,0 +1,40 @@
+.intro-bg {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 1400px;
+  margin: 0 AUTO;
+}
+.intro {
+  background-color: var(--secondary);
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+  border-radius: 8px;
+}
+
+.intro h2 {
+  color: var(--details);
+  margin-bottom: 24px;
+}
+
+.intro p {
+  text-align: left;
+  color: var(--paragraph);
+}
+
+@media (max-width: 800px) {
+  .intro-bg {
+    padding-top: 120px;
+    padding-bottom: 20px;
+  }
+  .intro {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
