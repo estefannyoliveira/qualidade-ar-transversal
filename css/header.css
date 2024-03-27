@@ -76,6 +76,10 @@
     box-shadow: 2px 2px 8px #5b5b5b27;
   }
 
+  .logo{
+    font-size: 24px;
+  }
+
   .nav-list-control {
     display: block;
     z-index: 3;

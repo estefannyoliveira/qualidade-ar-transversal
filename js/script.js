@@ -6,6 +6,7 @@ function ativarMenu(event) {
 }
 navControl.addEventListener('click', ativarMenu);
 
+
 const navListItens = document.querySelectorAll('.nav-item a');
 function fecharMenu() {
     navList.classList.remove('ativo')
